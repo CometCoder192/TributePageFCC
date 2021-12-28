@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	scroll-behavior: smooth;
+	font-size: 10px;
+}
+body {
+	font-family: 'Segoe UI';
+}
+#all {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #eee;
+	margin: 2rem;
+	text-align: center;
+}
+#title {
+	margin: 1rem;
+	font-size: 4rem;
+}
+#img-div {
+	background: white;
+	padding: 2rem;
+	border-radius: 2rem;
+}
+#image {
+	width: 100%;
+	display: block;
+	height: auto;
+	max-width: 100vh;
+	border-radius: 2rem;
+	transition: 0.3s;
+}
+#image:hover {
+	opacity: 0.7;
+	transition: 0.3s;
+}
+#img-caption {
+	font-size: 1.5rem;
+	margin-top: 2%;
+}
+#tribute-info {
+	margin: 2rem;
+}
+h2 {
+	font-size: 2.4rem;
+}
+#list {
+	text-align: center;
+	font-size: 2rem;
+}
+li {
+	margin: 2rem;
+	text-align: left;
+}
+h3 {
+	font-size: 2rem;
+	font-family: 'Century Gothic', monospace;
+}
+a {
+	text-decoration: none;
+	color: navy;
+	transition: 0.3s;
+}
+a:hover {
+	transition: 0.3s;
+
+	color: green;
+}
